@@ -1,0 +1,22 @@
+{
+	"name": "ds_Destination_canadacsv",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_Blog_Storage",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"container": "prod2"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
