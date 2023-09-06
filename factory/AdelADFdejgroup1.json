@@ -1,0 +1,9 @@
+{
+	"name": "AdelADFdejgroup1",
+	"location": "canadacentral",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "a2bd8796-c797-4953-9cd3-35ca044ba47e",
+		"tenantId": "16b3c013-d300-468d-ac64-7eda0820b6d3"
+	}
+}
